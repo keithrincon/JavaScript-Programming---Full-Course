@@ -1,6 +1,6 @@
-console.log(  Boolean("")   ) //
-console.log(  Boolean("0")  ) //
-console.log(  Boolean(100)  ) //
-console.log(  Boolean(null) ) //
-console.log(  Boolean([0])  ) //
-console.log(  Boolean(-0)   ) //
+console.log(Boolean('')); // falsey
+console.log(Boolean('0')); // truthy
+console.log(Boolean(100)); // truthy
+console.log(Boolean(null)); // falsey
+console.log(Boolean([0])); // truthy
+console.log(Boolean(-0)); // falsey
